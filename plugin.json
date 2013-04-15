@@ -1,0 +1,22 @@
+{ 
+	"name": "Password Protection",
+	"version": "0.1",
+	"description": "Protect pages and content on your site with passwords. See 'More Info' for details. View Readme for more details on theme compatability.",
+	"demo": "http://koken.me",
+	"author": {
+		"name": "Ben Hays",
+		"link": "http://benhays.com"
+	},
+	"data": {
+		"logins": {
+			"label": "Pages & Passwords",
+			"info": "URL and password separated by '|'. Each URL|Password should be separated by ','. The URL should not include the domain, and should only be the directory or album name.",
+			"type": "text"
+		},
+		"email": {
+			"label": "Contact Email",
+			"info": "Email address to show on login form for access, will not show if blank.",
+			"type": "string"
+		}
+	}
+}
