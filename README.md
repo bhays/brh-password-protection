@@ -5,6 +5,8 @@ Plugin for [Koken](http://koken.me) to allow password protection on a per URL ba
 
 This is by no means secure, but it does restrict access to content. Depending on your theme, there may be many ways to get to the same content. In this event, you will need to define multiple URLs or change your theme setup.
 
+**Note** this plugin is currently incompatable with template caching, you will need to uncheck that option in Settings -> Site Publishing
+
 Filtered output uses [PHP Simple HTML DOM Parser](http://simplehtmldom.sourceforge.net/) by S.C. Chen.
 
 
@@ -23,6 +25,8 @@ Installation
 3. Once activated, click the Setup button and then add the URL and passwords of your choice.
 
 4. Add your email address to display at the end of the password form for people to contact you for access.
+
+5. Make sure Template Caching is disabled under Settings -> Site Publishing.
 
 Usage Notes
 ------------
